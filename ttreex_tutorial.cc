@@ -79,8 +79,9 @@ int main()
         // Clear all the variables
         treex.clear();
 
-        // Now everything is reset, before setting the branch, if you call the "getBranch" then it will throw an error and quit the program
-        // This is to protect the user from using dummy values like -999 in the analysis by accident
+        // Now everything is reset.
+        // Before setting the branch again, if you call the "getBranch" then it will throw an error and quit the program.
+        // This is to protect the user from using dummy values like -999 in the analysis by accident.
 
         // However, one can bypass by calling "getBranchLazy." It does not rigorously check, hence the name "Lazy"
         std::cout << treex.getBranchLazy<int>("my_int") << std::endl;
