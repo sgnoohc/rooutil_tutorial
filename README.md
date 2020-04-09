@@ -30,6 +30,8 @@ Then read ```looper_tutorial.cc```
 
 ## Tutorial 3: Cutflow / Histogram
 
+This requires Tutorial 2 to be finished.
+
     make cutflow_tutorial.exe
     ./cutflow_tutorial.exe
 
