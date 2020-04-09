@@ -3,7 +3,9 @@
 int main()
 {
 
-    // RooUtil::TTreeX is a wrapper around ttree to facilitate reading and writing without creating gazillion number of hard coded variables.
+    // RooUtil::TTreeX is a wrapper around ttree to facilitate writing without creating gazillion number of hard coded variables.
+    // It can also access the variables that are set that are about to be written into.
+    // TTreeX is not useful for reading an external TTree, that was not what this was inteded for.
     // It is true when this is done at a massive scale it is potentially not as fast as hardcoded version. But when used for a handful of numbers should not affect the performance.
 
     // Let's create a ttree we want to work with
