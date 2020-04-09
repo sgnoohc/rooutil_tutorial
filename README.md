@@ -23,6 +23,8 @@ This requires Tutorial 1 to be finished.
 
 Then one has to generate a source file in the SNT "MakeClass" style.
 
+This is done via ```makeclass.sh``` which is ```rooutil```.  The ```makeclass.sh``` command should exists assuming ```source rooutil/thisrooutil.sh``` was already called.
+
     makeclass.sh dummy.root t MyNtuple blah mynt
 
 This will create ```MyNtuple.cc/h```. Afterwards, run the following command
