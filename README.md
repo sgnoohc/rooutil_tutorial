@@ -1,10 +1,14 @@
 # rooutil_tutorial
 
-To compile all the tutorials
+## Setting up Tutorial
+
+    git clone --recursive git@github.com:sgnoohc/rooutil_tutorial.git
+    cd rooutil_tutorial
+
+The following sets up ```rooutil``` environements and the recommended ROOT version.
 
     source rooutil/thisrooutil.sh
     source rooutil/root.sh
-    make -j
 
 ## Tutorial 1: TTreeX
 
